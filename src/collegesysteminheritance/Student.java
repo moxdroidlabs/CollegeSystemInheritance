@@ -11,6 +11,8 @@ package collegesysteminheritance;
  */
 public class Student extends Person
 {
+    
+    //So Sorry
     private float marks[];
     private float total;
     private float percentage;
