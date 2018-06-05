@@ -27,6 +27,9 @@ public class CollegeSystemInheritance {
         p1 = s1;
         p1.display();
         
+        
+        // Hii.. Comment added by Sonia
+        
     }
     
 }
