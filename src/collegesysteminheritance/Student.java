@@ -9,15 +9,20 @@ package collegesysteminheritance;
  *
  * @author moxdroid
  */
-public class Student extends Person
+final public class Student extends Person
 {
-    
+    static String NAME = "HELLO";
     //So Sorry
     private float marks[];
     private float total;
     private float percentage;
     private String result; //PASS or FAIL
 
+    public static void test()
+    {
+        
+    }
+    
     public Student() {
         super();
     }
@@ -66,5 +71,10 @@ public class Student extends Person
     public void display()
     {
         System.out.println("display of Student");
+    }
+    
+    public void print()
+    {
+        
     }
 }

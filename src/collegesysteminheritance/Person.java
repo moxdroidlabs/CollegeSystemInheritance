@@ -9,7 +9,7 @@ package collegesysteminheritance;
  *
  * @author moxdroid
  */
-public class Person 
+public class Person implements IDisplay
 {
     //This comment is added from Lambton College Class Computer
     private int id;
@@ -94,16 +94,22 @@ public class Person
         this.city = city;
     }
     
+    @Override
     public void display()
     {
         System.out.println("display of Person");
-        /*
         System.out.println("ID          : " + this.id);
         System.out.println("First Name  : " + this.firstName);
         System.out.println("Last Name   : " + this.lastName);
         System.out.println("Gender      : " + this.gender);
         System.out.println("Address     : " + this.address);
         System.out.println("City        : " + this.city);
-*/
+
     }
+
+    final public void print()
+    {
+        
+    }
+    
 }
