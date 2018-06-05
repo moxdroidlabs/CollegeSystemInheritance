@@ -11,6 +11,7 @@ package collegesysteminheritance;
  */
 public class Person 
 {
+    //This comment is added from Lambton College Class Computer
     private int id;
     private String firstName;
     private String lastName;
